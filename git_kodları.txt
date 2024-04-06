@@ -1,0 +1,43 @@
+Git / Github proje atma bilgilendirme
+- [ ] Commit : zamanın belli noktalarına koyduğumuz duraklar
+- [ ] Repository : proje depomuz / klasörümüz
+
+
+Git /Github Kodlar
+Not : önce github repomuzdan bir projeyi locale çekiyoruz. Sonra bir ide de açıyoruz. 
+- [ ] git fetch : tüm repoları çek
+- [ ] git checkout development : developmant dalına geç
+- [ ] git pull origin development : githubdaki proje ile çalıştığımız senkronizemi , değilse güncel halini çek
+- [ ] pip install -r requirements.txt : projedeki  txt dosyasında yazılmış olan gerekli paketleri yükler 
+- [ ] Dosyalardaki kodu kimin yazdığını kodun üstüne sağ tıklayıp annotate with git blame ile görürsün
+
+
+Git komutları
+- [ ] git clone [url] : bulunduğun dizine url den dosyaları çeker
+- [ ] git init : bulunduğun klasörde gizli git dosyayı oluşturur. Bu dosyada bazı ayarlar vardır. Bu şekilde git i kullanırız
+- [ ] git status : bulunduğum klasördeki dosyaları / değişiklikleri  local repository e  commitlemiş miyim onu gösterir.
+Not : bu aşamadan sonra yapılan değişikliklerde git add . Ve ardından git commit --m "dosya ismi değişti yada dosya silindi vs" gibi işlem yapıyoruz.
+- [ ] git add index.html : stageingarea ya seçtiğimiz dosyayı ekledi ve commit etmek için hazılamış olduk. Bu local repository den önceki bir ara katman.
+- [ ] git add . : toplu ekleme , stageingarea ya 
+- [ ] git commit -m "commit 1" : commit işlemini "commit 1" açıklaması ile yaptık
+- [ ] git log : yapılan işlemlerin bilgisini verir
+- [ ] git log --oneline : üstekinin aynısı ama kısa bilgi verir.
+- [ ] git checkout ..... -- m : (noktaların yerine statusten bakıp aldığımız eski zamandaki işleme dönmek için işlem id sini yazıyoruz.) yada değişiklik yaptığımız dosyanın adını yazıp bir önceki haline çeviriyoruz binevi hata düzeltme gibi
+- [ ] git diff : dosya içlerinde yapmış olduğumuz bütün değişiklikleri gösterir.
+- [ ] git diff ...txt vs : dosyaya özel sorgu
+- [ ] git rm index.html : git de dosya silme. Silerken klasördende görebilirsin. Bunu commit etmemiz gerek, git status ten bak ve önce git add . Yaz sonra            git commit --m "index.html silindi"  yaz.
+- [ ] git rm -r klasör/ : git de kalsör silme. Silerken bulunduğu yerden de görebilirsin. git status ten bak ve önce git add . Yaz sonra            git commit --m "klasör silindi"  yaz.
+- [ ] git mv deneme.txt test.txt : dosya adı değiştirme
+Not :  değişiklikleri git add . İle stageinarea ya gönderip ondan sonra git status ile kontrol edip sonrada git commit -m "açıklama" ile local git depomuza gönderiyoruz.
+- [ ] git mv test.txt dosya/ : Dosyayı klasöre taşıma. Sonra git add ve git commit yap
+- [ ] git mv test.txt dosya/abc.txt : Dosyayı taşırken ismini değiştirme ,Sonra git add ve git commit yap
+- [ ] git config --list : git konfigürasyonlarını listeler. Kullanıcı adı vs. Listesi
+Not : git add . Diyip stageingarea ya gönderdiğimiz dosyayı commit etmeden öncede  'git reset HEAD deneme4.txt' yazarak geri çekip 'git checkout -- deneme4.txt' yazarak düzenleyebiliriz. 
+- [ ] git config --global alias.st status : status ü st olarak ksayol ismi tanımladık
+
+Python terminal kodları
+- [ ] python3 -m venv myenv : sanal ortam oluşturur
+- [ ] source myenv/bin/activate : sanal ortamı etkinleştirir
+- [ ] cd , cd . cd desktop , cd ... : klasörler ve ortamlar arasında gezinme
+- [ ] mkdir : bulunduğun dizinde klasör oluşturur.
+- [ ] touch index.html : bulunduğun klasörde dosya oluşturur.
