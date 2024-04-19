@@ -3,7 +3,7 @@ Git / Github proje atma bilgilendirme
 - [ ] Repository : proje depomuz / klasörümüz
 
 
-Git /Github Kodlar
+Git /Github Terminal Kodları
 Github 
 Not: göndereceğimiz dosyaların konumunda terminal açıyoruz., daha önce githubda oluşturduğumuz repomuzun yolunu kopyalıyoruz.
 
